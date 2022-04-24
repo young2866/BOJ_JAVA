@@ -18,8 +18,7 @@ public class Main {
         N = sc.nextInt();
         M = sc.nextInt();
 
-        chk = new boolean[N + 1];
-        arr = new int[N + 1];
+        arr = new int[M];
 
         Back(1,0);
         System.out.println(sb);
